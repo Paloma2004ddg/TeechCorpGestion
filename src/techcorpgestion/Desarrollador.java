@@ -21,7 +21,15 @@ public class Desarrollador extends Empleado {
     public void setlenguajePrincipal(String lenguajePrincipal){
         this.lenguajePrincipal = lenguajePrincipal;
     }
-}
+     
+    @Override
     public void trabajar(){
-    
+        System.out.println("Desarrollador "+ nombre + "esta programando en "+lenguajePrincipal + ".");
+} 
+    @override
+    public void mostrarinfo(){
+        super.mostrarInfo();
+        System.out.println(" Rol: Desarrollador | lenguaje " + lenguajePrincipal);
+    }
 }
+   
