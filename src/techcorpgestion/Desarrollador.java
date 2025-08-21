@@ -22,11 +22,11 @@ public class Desarrollador extends Empleado {
         this.lenguajePrincipal = lenguajePrincipal;
     }
      
-    @Override
+    @Override//reescribir lo que tiene su clase madre
     public void trabajar(){
         System.out.println("Desarrollador "+ nombre + "esta programando en "+lenguajePrincipal + ".");
 } 
-    @override
+    @Override
     public void mostrarinfo(){
         super.mostrarInfo();
         System.out.println(" Rol: Desarrollador | lenguaje " + lenguajePrincipal);
