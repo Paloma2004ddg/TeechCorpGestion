@@ -40,7 +40,7 @@ public  abstract class Empleado {
     
 }
    //metodo comun
-   public void mostrarInfo(){
+   public void mostrarInformacion(){
        System.out.println("ID: "+ idEmpleado + " | Nombre: "+ nombre + "| Salario: $" + salario);
    }
 }

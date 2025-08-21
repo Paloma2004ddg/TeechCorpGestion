@@ -20,8 +20,8 @@ public class Disenador extends Empleado {
         System.out.println("Diseñador "+ nombre + "esta trabajando en  " + herramientaFavorita + ".");
     }
     @Override
-    public void mostrarinfo(){
-        super.mostrarInfo();
+    public void mostrarInformacion(){
+        super.mostrarInformacion();
         System.out.println(" Rol: Diseñador │ Herramienta: " + herramientaFavorita );
     }
 }

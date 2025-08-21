@@ -27,8 +27,8 @@ public class Desarrollador extends Empleado {
         System.out.println("Desarrollador "+ nombre + "esta programando en "+lenguajePrincipal + ".");
 } 
     @Override
-    public void mostrarinfo(){
-        super.mostrarInfo();
+    public void mostrarInformacion(){
+        super.mostrarInformacion();
         System.out.println(" Rol: Desarrollador | lenguaje " + lenguajePrincipal);
     }
 }
