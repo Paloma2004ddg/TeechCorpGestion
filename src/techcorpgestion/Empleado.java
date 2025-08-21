@@ -23,10 +23,10 @@ public  abstract class Empleado {
    public void setnombre(String nombre){
        this.nombre = nombre;
    }
-   public String getidEmpleado(){
+   public String getIdEmpleado(){
        return idEmpleado;
    }
-   public void setidEmpleado(String idEmpleado){
+   public void setIdEmpleado(String idEmpleado){
        this.idEmpleado = idEmpleado;
    }
    public double getsalario(){
@@ -36,9 +36,8 @@ public  abstract class Empleado {
        this.salario = salario;
    }
    //metodo abstracto(polimorfismo)
-   public abstract void trabajar();{
+   public abstract void trabajar();
     
-}
    //metodo comun
    public void mostrarInformacion(){
        System.out.println("ID: "+ idEmpleado + " | Nombre: "+ nombre + "| Salario: $" + salario);
